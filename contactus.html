@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="topnav.css">
+</head>
+
+<body>
+  <main class=navbar>
+    <nav class=top-menu>
+      <ul class=topnav>
+        <li class=topnavli><a href="testimony.html" alt="Customer testimonials">Testimonials</a></li>
+        <li class=topnavli><a href="contactus.html" alt="Contact Information">Contact Us</a></li>
+        <li class=topnavli><a href="media.html" alt ="Videos and Images">Media</a></li>
+        <li class=topnavli><a href="documentation.html" alt="Documentation page">Learn HTML</a></li>
+        <li class=topnavli><a href="home.html" alt="Home Page">Home</a></li>
+      </ul>
+    </nav>
+    <section class="padding">
+    <details>
+    <summary>Please fill our survey..</summary>
+      <form method="post" action="form.php">
+        Name: <input type="text" name="name">
+  <br><br>
+  E-mail: <input type="text" name="email">
+  <br><br>
+  Website: <input type="text" name="website">
+  <br><br>
+  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+  <br><br>
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <br><br>
+  <input type="submit" name="submit" value="Submit">  
+ </form>
+
+</details>
+<h2>Popup</h2>
+
+<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup">A Simple Popup!</span>
+</div>
+<script src="loadmore.js"></script>
+</main>
+</body>
+</html>

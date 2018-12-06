@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Technical Documentation Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <main class=navbar>
+    <nav class=top-menu>
+      <ul class=topnav>
+        <li class=topnavli><a href="testimony.html" alt="Customer testimonials">Testimonials</a></li>
+        <li class=topnavli><a href="contactus.html" alt="Contact Information">Contact Us</a></li>
+        <li class=topnavli><a href="media.html" alt ="Videos and Images">Media</a></li>
+        <li class=topnavli><a href="documentation.html" alt="Documentation page">Learn HTML</a></li>
+        <li class=topnavli><a href="home.html" alt="Home Page">Home</a></li>
+    </nav>
+  <main id="main-docs">
+    <nav id=nav-bar>
+      <header id=nav-header> HTML Documentation </header>
+      <a href="#Whatishtml" class=nav-link>What is HTML? </a>
+      <a href="#HTMLSample" class=nav-link>HTML Example </a>
+      <a href="#htmltags" class=nav-link>HTML Tags</a>
+      <a href="#webbrowsers" class=nav-link>Web Browsers</a>
+      <a href="#doctypedeclaration" class=nav-link>DOCTYPE Declaration</a>
+      <a href="#htmlversion" class=nav-link>HTML Versions</a>
+      <a href=#htmldocs class=nav-link>HTML Documents</a>
+      <a href=#htmlheadings class=nav-link>HTML Headings</a>
+      <a href=#htmlattributes class=nav-link>HTML Attributes</a>
+    </nav>
+    <section class="main-section">
+      <header id=nav-left>
+
+      </header>
+    </section>
+
+    <section class="main-section">
+      <header id=HTML>
+        HTML INTRODUCTION
+      </header>
+    </section>
+    <section class="main-section">
+      <header id="Whatishtml">What is HTML? </header>
+      <p>HTML is the standard markup language for creating Web pages.</p>
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML describes the structure of Web pages using markup</li>
+        <li>HTML elements are the building blocks of HTML pages</li>
+        <li>HTML elements are represented by tags</li>
+        <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+        <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+      </ul>
+    </section>
+    <section class=main-section id=HTMLSample>
+      <header id=example>A Simple HTML Document</header>
+      <div class=box>
+        <h3>Example</h3>
+        <p>&lt!DOCTYPE html> </p>
+        <p>&lthtml></p>
+        <p>&lthead></p>
+        <p>&lttitle>Page Title&lt/title></p>
+        <p>&lt/head></p>
+        <p>&ltbody></p><br />
+
+        <p>&lth1>My First Heading&lt/h1></p>
+        <p>&ltp>My first paragraph.&lt/p></p><br />
+
+        <p>&lt/body></p>
+        <p>&lt/html></p>
+      </div>
+      <h3>Example Explained</h3>
+      <ul>
+        <li> The <b>&lt!DOCTYPE html></b> declaration defines this document to be HTML5 </li>
+        <li>The <b>&lthtml></b> element is the root element of an HTML page</li>
+        <li>The <b>&lthead></b> element contains meta information about the document</li>
+        <li>The <b>&lttitle></b> element specifies a title for the document</li>
+        <li>The <b>&ltbody></b> element contains the visible page content</li>
+        <li>The <b>&lth1></b> element defines a large heading</li>
+        <li>The <b>&ltp></b> element defines a paragraph</li>
+      </ul>
+    </section>
+
+    <section class=main-section id=htmltags>
+      <header id=htags>HTML Tags</header>
+      <p>HTML tags are element names surrounded by angle brackets:</p>
+      <p id=tags> &lttagname>Content goes here.. &lt/tagname> </p>
+      <ul>
+        <li>HTML tags normally come in pairs like <code>&ltp></code> and <code>&lt/p></code> </li>
+        <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
+        <li>The end tag is written like the start tag, but with a forward slash inserted before the tag name</li>
+      </ul>
+      <p class=tips><b>Tip:</b> The start tag is also called the <b>opening tag</b>, and the end tag the <b>closing tag</b>.</p>
+    </section>
+    <section class=main-section id=webbrowsers>
+      <header id=webbrowsers>Web Browsers</header>
+      <p>The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.</p>
+      <p>The browser does not display the HTML tags, but uses them to determine how to display the document:
+        <p>
+          <figure><img src=https://www.w3schools.com/html/img_chrome.png alt="Web Browser" />
+          </figure>
+    </section>
+    <section class=main-section id=doctypedeclaration>
+      <header id="doctypedeclaration"> The &lt!DOCTYPE> Declaration </header>
+      <p>The <code>&lt!DOCTYPE></code> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+
+      <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+
+      <p>The<code>&lt!DOCTYPE></code>declaration is not case sensitive.</p>
+
+      <p>The <code>&lt!DOCTYPE></code> declaration for HTML5 is:</p>
+      <div class=doctype>
+        <p>&lt!DOCTYPE html> </p>
+      </div>
+      <section>
+        <section class="main-section" id=htmlversion>
+          <header id=htmlversion>HTML Version</header><br />
+          <table id=version width=100%>
+            <thead>
+              <tr>
+                <th>Version</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class=odd>
+                <td>HTML</td>
+                <td>1991</td>
+              </tr>
+              <tr>
+                <td>HTML 2.0</td>
+                <td>1995</td>
+              </tr>
+              <tr class=odd>
+                <td>HTML 3.2</td>
+                <td>1997</td>
+              </tr>
+              <tr>
+                <td>HTML 4.01</td>
+                <td>1999</td>
+              </tr>
+              <tr class=odd>
+                <td>XHTML</td>
+                <td>2000</td>
+              </tr>
+              <tr>
+                <td>HTML5</td>
+                <td>2014</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class=main-section id=htmldocs>
+          <header id=htmldocs>HTML Documents</header>
+          <p>All HTML documents must start with a document type declaration: <code>&lt!DOCTYPE html></code>. </p>
+
+          <p>The HTML document itself begins with <code>&lthtml></code> and ends with <code>&lt/html></code>.</p>
+
+          <p>The visible part of the HTML document is between <code>&ltbody></code> and <code>&lt/body></code>.</p>
+          <div class=box>
+            <h3>Example</h3>
+            <p>&lt!DOCTYPE html> </p>
+            <p>&lthtml></p>
+            <p>&ltbody></p><br />
+
+            <p>&lth1>My First Heading&lt/h1></p>
+            <p>&ltp>My first paragraph.&lt/p></p><br />
+
+            <p>&lt/body></p>
+            <p>&lt/html></p>
+          </div>
+        </section>
+        <section class=main-section id=htmlheadings>
+          <header id=htmlheadings>HTML Headings</header>
+          <p>HTML headings are defined with the <code>&lth1></code> to <code>&lth6></code> tags. </p>
+
+          <p> <code>&lth1></code> defines the most important heading. <code>&lth6></code> defines the least important heading:</p>
+          <div class=box>
+            <h3>Example</h3>
+            <p>&lth1>This is heading 1&lt/h1> </p>
+            <p>&lth2>This is heading 2&lt/h2></p>
+            <p>&lth3>This is heading 3&lt/h3></p>
+          </div>
+        </section>
+        <section class =main-section id=htmlattributes>
+          <header id=htmlattributes>HTML Attributes</header>
+          <ul>
+            <li>All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about an element</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>
+          </ul>
+        </section>
+        <section class=main-section id=htmlformatting>
+          <header id=htmlformatting> HTML Formatting Elements</header>
+          <p>n the previous chapter, you learned about the HTML style attribute.</p>
+
+          <p>HTML also defines special elements for defining text with a special meaning.</p>
+
+          <p>HTML uses elements like <code>&ltb></code> and <code>&lti></code> for formatting output, like bold or italic text.</p>
+
+          <p>Formatting elements were designed to display special types of text:</p>
+          <ul>
+            <li>&ltb> - Bold text </li>
+            <li>&ltstrong> - Important text</li>
+            <li>&lti> - Italic text</li>
+            <li>&ltem> - Emphasized text</li>
+            <li>&ltmark> - Marked text</li>
+            <li>&ltsmall> - Small text</li>
+            <li>&ltdel> - Deleted text</li>
+            <li>&ltins> - Inserted text</li>
+            <li>&ltsub> - Subscript text</li>
+            <li>&ltsup> - Superscript text</li>
+          </ul>
+        </section>
+
+        </main>
+      </body>
+        </html>

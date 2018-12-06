@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#HTML {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+  padding:50px 0px 0px 0px;
+  color:black;
+}
+#nav-bar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 220px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #333; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  text-shadow: 4px 4px 5px #303030;
+}
+
+/* The navigation menu links */
+#nav-bar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#nav-bar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+#main-docs {
+  margin-left: 260px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+#Whatishtml {
+  text-size: 15px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #nav-bar {
+    padding-top: 15px;
+  }
+  #nav-bar a {
+    font-size: 18px;
+  }
+}
+#nav-header {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  padding: 10px;
+}
+.main-section header {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+  text-shadow: 2px 3px 4px grey;
+  padding:50px 0px 15px 0px;
+}
+p,
+li {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+}
+
+#tags {
+  background-color: lightgrey;
+  width: 75%;
+  font-size: 25px;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+.tips {
+  background-color: #f0e68c;
+  width: 75%;
+  font-size: 20px;
+  padding: 25px;
+  margin: 25px;
+  text-align: left;
+  box-shadow: 10px 10px 5px grey;
+}
+.box {
+  background-color: lightgrey;
+  width: 50%;
+  box-shadow: 10px 10px 5px grey;
+  padding: 25px;
+  margin: 25px;
+  font-family: "Times New Roman", Georgia;
+}
+h1 {
+  text-shadow: 4px 4px 5px grey;
+  font-size: 40px;
+}
+.doctype {
+  background-color: #c0c0c0;
+  padding: 0.01em 16px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px 0 #989898, 0 2px 10px 0 #989898;
+}
+#version {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  display: table;
+  border: 2px solid #ccc;
+  margin: 20px 0;
+  font-family: Verdana, sans-serif;
+  box-shadow: 0 2px 4px 0 #989898, 0 2px 10px 0 #989898;
+}
+td,
+th {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  text-indent: 30px;
+  font-family: Verdana, sans-serif;
+}
+.version thead {
+  font-size: 28px;
+}
+.odd {
+  background-color: #d0d0d0;
+}
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    width:100%;
+}
+
+.topnavli {
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnavli li a:hover {
+    background-color: #111;
+}
+
+.intro {
+  background: green;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+
+}
+
+.intro-text {
+  color: white;
+  max-width: 600px;
+  padding:400px
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+h1{
+  color:white;
+  foint-size:40px;
+}
+.video{
+  padding:50px;
+}
